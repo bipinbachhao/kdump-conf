@@ -1,9 +1,9 @@
 name 'kdump-conf'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
-license 'All Rights Reserved'
-description 'Installs/Configures kdump-conf'
-long_description 'Installs/Configures kdump-conf'
+maintainer 'Bipin Bachhao'
+maintainer_email 'bipinbachhao@gmail.com'
+license 'Apache 2.0'
+description 'Installs/Configures kdump configuration'
+long_description 'Installs/Configures kdump configuration on redhat/centos based linux systems'
 version '0.1.0'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
@@ -11,10 +11,10 @@ chef_version '>= 12.1' if respond_to?(:chef_version)
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
 # uploaded to a Supermarket.
 #
-# issues_url 'https://github.com/<insert_org_here>/kdump-conf/issues'
+# issues_url 'https://github.com/bipinbachhao/kdump-conf/issues'
 
 # The `source_url` points to the development repository for this cookbook.  A
 # `View Source` link will be displayed on this cookbook's page when uploaded to
 # a Supermarket.
 #
-# source_url 'https://github.com/<insert_org_here>/kdump-conf'
+# source_url 'https://github.com/bipinbachhao>/kdump-conf'
