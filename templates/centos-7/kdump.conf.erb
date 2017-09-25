@@ -1,0 +1,6 @@
+<%= @crashtype %> <%= @location %>
+path <%= @corepath %>
+core_collector makedumpfile -d 31 -c<%= @msglevel %>
+force_rebuild 1
+default reboot
+<%= @pre_kdump %>
